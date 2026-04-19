@@ -1,5 +1,5 @@
 Tarea 1 Visualizacion
 Integrantes:
-- Dante Aspee
+- Dante Aspee 202073524-7
 - Ariel Pulgar
 - Alex Urrutia
