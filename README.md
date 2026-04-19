@@ -6,5 +6,5 @@ Integrantes:
 - Alex Urrutia 202073565-4
 
 Origenes de los datos:
--https://sullygnome.com/
+- https://sullygnome.com/
 
