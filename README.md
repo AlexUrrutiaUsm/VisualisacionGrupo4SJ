@@ -12,9 +12,9 @@ Este directorio contiene la descripción y el origen de los datos utilizados par
 ## Descripción de los Datos
 Los datos recopilados permiten analizar la evolución de Twitch bajo dos criterios principales:
 
-### Archivo:twitch_data.csv
-1.  **Desempeño Financiero (2016-2024):** Estimaciones de ingresos anuales en miles de millones de dólares ($ Billones).
-2.  **Alcance de Audiencia (2012-2024):** Promedio de espectadores concurrentes (viewers) a nivel global.
+### Archivo: twitch_data.csv
+1.  **Desempeño Financiero (2016-2024):** Estimaciones de ingresos anuales en miles de millones de dólares.
+2.  **Alcance de Audiencia (2012-2024):** Promedio de espectadores concurrentes a nivel global.
 
 ## Origen de las Fuentes
 
