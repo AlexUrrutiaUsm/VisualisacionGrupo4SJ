@@ -154,7 +154,7 @@ def generar_bubble_chart(resumen_idiomas: pd.DataFrame) -> None:
 			fontweight="bold",
 		)
 
-	plt.title("Bubble Chart: Total promedio de espectadores por idioma", fontsize=15)
+	plt.title("Bubble Chart: Total promedio de espectadores por idioma del ultimo año", fontsize=15)
 	ax.set_xticks([])
 	ax.set_yticks([])
 	ax.set_xlim(-limite, limite)
