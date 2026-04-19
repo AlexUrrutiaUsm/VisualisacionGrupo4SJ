@@ -7,11 +7,12 @@ Integrantes:
 
 # Fuentes de Datos(data)
 
-Este directorio contiene la descripción y el origen de los datos utilizados para la generación de visualizaciones multivariantes sobre el mercado de streaming.
+Este directorio contiene la descripción y el origen de los datos utilizados para la generación de las visualizaciones.
 
 ## Descripción de los Datos
 Los datos recopilados permiten analizar la evolución de Twitch bajo dos criterios principales:
 
+### Archivo:twitch_data.csv
 1.  **Desempeño Financiero (2016-2024):** Estimaciones de ingresos anuales en miles de millones de dólares ($ Billones).
 2.  **Alcance de Audiencia (2012-2024):** Promedio de espectadores concurrentes (viewers) a nivel global.
 
