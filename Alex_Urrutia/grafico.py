@@ -27,8 +27,8 @@ def load_total(folder, metric):
     df = df.dropna(subset=["Game", metric])
     return df.groupby("Game", as_index=False)[metric].sum()
 
-df_s = load_total("Most Streamed", "Stream time (mins)")
-df_w = load_total("Most Watched",  "Watch time (mins)")
+df_s = load_total("data/Most Streamed", "Stream time (mins)")
+df_w = load_total("data/Most Watched",  "Watch time (mins)")
 
 df_s["stream_rank"] = df_s["Stream time (mins)"].rank(ascending=False, method="min").astype(int)
 df_w["watch_rank"]  = df_w["Watch time (mins)"].rank(ascending=False,  method="min").astype(int)
