@@ -1,0 +1,226 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{subcaption}
+
+\definecolor{twitchpurple}{RGB}{145,70,255}
+\definecolor{darkgray}{RGB}{64,64,64}
+
+\titleformat{\section}{\Large\bfseries\color{twitchpurple}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{darkgray}}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    % Imagen de Twitch centrada al inicio
+    \includegraphics[width=0.25\textwidth]{./data/Twitch.png} \\
+    \vspace{1cm}
+    
+    {\Huge\bfseries\color{twitchpurple} Análisis Multidimensional del Ecosistema Twitch} \\
+    \vspace{0.5cm}
+    {\Large Estudio Integral de Contenido, Creadores y Rendimiento Económico} \\
+    \vspace{0.3cm}
+    {\large Período 2016--2025}
+    
+    \vfill
+    
+    % Autores en la parte inferior
+    \textbf{Grupo 4 - Visualización de Datos} \\
+    \vspace{0.2cm}
+    Alex Urrutia \quad $\bullet$ \quad Ariel Pulgar \quad $\bullet$ \quad Dante Aspee \\
+    \vspace{0.1cm}
+    \textit{USM - Visualización de Datos} \\
+    \vspace{0.1cm}
+    \href{https://github.com/AlexUrrutiaUsm/VisualisacionGrupo4SJ}{Repositorio GitHub}\\
+    \vspace{0.1cm}
+    \today
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introducción} 
+
+\subsection{Contexto y Relevancia} 
+
+Twitch se ha consolidado como la plataforma de streaming dominante en el ecosistema gaming y entretenimiento digital. Su crecimiento exponencial desde 2016 ha transformado no solo la industria de los videojuegos, sino también las estrategias de marketing, el comportamiento del consumidor digital y las nuevas economías creativas.
+
+\subsection{Objetivos del Análisis}
+
+El presente estudio adopta un enfoque multidimensional para comprender: 
+
+\begin{itemize}
+    \item \textbf{Dimensión de Contenido}: Evolución de las preferencias de juegos y patrones de consumo 
+    \item \textbf{Dimensión de Creadores}: Dinámicas de crecimiento y comportamiento de streamers exitosos 
+    \item \textbf{Dimensión Económica}: Impacto financiero y métricas de audiencia de la plataforma 
+\end{itemize}
+
+\subsection{Metodología Integrada} 
+
+Para garantizar la coherencia analítica, cada dimensión del estudio utiliza: 
+\begin{enumerate}
+    \item Datos que abarcan el período 2016--2025 
+    \item Métricas estandarizadas de \textit{engagement} y rendimiento 
+    \item Enfoque en los elementos más representativos de cada categoría
+\end{enumerate}
+
+\section{Análisis de la Evolución del Contenido Gaming} 
+
+\subsection{Marco Conceptual: Dinámica Stream vs Watch} 
+
+El primer eje de análisis examina la relación entre la popularidad de streaming (cantidad de horas transmitidas) y el consumo real (horas visualizadas) de los principales videojuegos en Twitch. Esta perspectiva revela discrepancias importantes entre la oferta de contenido y la demanda real de audiencia.
+
+\subsection{Metodología: Slope Chart Analysis}
+
+El análisis utiliza un slope chart comparativo que visualiza simultáneamente: 
+\begin{itemize}
+    \item \textbf{Stream Rank}: Posicionamiento por horas totales transmitidas 
+    \item \textbf{Watch Rank}: Posicionamiento por horas totales visualizadas 
+    \item \textbf{Trayectorias de cambio}: Movimiento relativo entre ambas métricas 
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"./Alex_Urrutia/Grafico Streamed Vs Watched.png"}
+    \caption{Slope Chart: Stream Rank vs Watch Rank - Top Juegos en Twitch (2016--2025)}
+\label{fig:slope_chart}
+\end{figure}
+
+\subsection{Hallazgos Principales} 
+
+\begin{itemize}
+    \item \textbf{Juegos que mantienen equilibrio}: Títulos como \textit{Just Chatting} y \textit{League of Legends} mantienen rankings similares en ambas dimensiones, indicando equilibrio entre oferta y demanda.
+    
+    \item \textbf{Juegos con más streamers que espectadores}: Juegos como \textit{Rainbow Six Siege} y \textit{Apex Legends} muestran mayor ranking de stream que de watch, sugiriendo saturación de contenido.
+    
+    \item \textbf{Juego \textit{outliner}}: \textit{Hearthstone} muestra un ranking de watch significativamente superior al de stream, indicando alta demanda con oferta limitada.
+\end{itemize}
+
+\section{Análisis del Ecosistema de Creadores de Contenido}
+
+\subsection{Marco Conceptual: Jerarquías de Influencia} 
+
+El segundo eje examina la distribución y características de los streamers más exitosos, enfocándose en dos métricas fundamentales: base de seguidores establecida y capacidad de crecimiento activo. Este análisis revela las dinámicas de poder e influencia dentro del ecosistema Twitch.
+
+\subsection{Metodología: Word Cloud Ponderado} 
+
+La visualización utiliza una nube de palabras donde: 
+\begin{itemize}
+    \item \textbf{Tamaño de texto}: Proporcional al número total de seguidores 
+    \item \textbf{Intensidad de color}: Representa la tasa de seguidores ganados (crecimiento) 
+    \item \textbf{Posicionamiento}: Refleja la combinación de ambas métricas 
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"./Ariel_Pulgar/nube_palabras_followers.png"}
+    \caption{Nube de Palabras: Streamers por Seguidores y Crecimiento}
+\label{fig:wordcloud}
+\end{figure}
+
+\newpage
+
+\section{Análisis del Impacto Económico y Audiencia}
+\textit{Sección realizada por: Dante Aspee}
+
+\subsection{Metodología y Justificación de Criterios}
+
+Para el desarrollo de esta dimensión, he seleccionado como criterios de análisis los \textbf{Ingresos Anuales Totales} y la \textbf{Audiencia Promedio}. Se han seleccionado estos criterios con el fin de obtener una lectura objetiva sobre la viabilidad económica y el alcance real de la plataforma en el mercado global de entretenimiento digital:
+
+\begin{itemize}
+    \item \textbf{Ingresos Anuales}: Este criterio permite cuantificar el éxito de Twitch como modelo de negocio y su capacidad para capturar valor económico dentro de la industria del entretenimiento digital. Es la métrica definitiva para evaluar la sostenibilidad financiera a largo plazo.
+    \item \textbf{Audiencia Promedio}: Se seleccionó este criterio porque representa la materia prima de la plataforma. Sin una base de usuarios sólida, el valor de los creadores y el interés de los anunciantes disminuye. Por lo tanto es fundamental entender no solo cuánto dinero se genera, sino cuántas personas están consumiendo el contenido que Twitch ofrece.
+\end{itemize}
+
+La relevancia de analizar ambos criterios en conjunto radica en que permite identificar la \textbf{eficiencia de monetización}. No basta con saber cuánto dinero ingresa, sino entender si dicho ingreso es proporcional al volumen de personas consumiendo contenido o si la plataforma está logrando extraer más valor de una audiencia más pequeña a través de suscripciones y publicidad diversificada.
+
+En cuanto a la grafica seleccionada, la visualización emplea un \textbf{Lollipop Chart Dual} que representa:
+\begin{itemize}
+    \item \textbf{Eje Y}: Ingresos en miles de millones de USD.
+    \item \textbf{Hexágonos}: Audiencia promedio (millones de espectadores).
+    \item \textbf{Línea temporal}: Evolución del periodo 2016--2024.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{"./Dante_Aspee/Lollipop_Twitch.png"}
+    \caption{Desempeño Financiero y Audiencia de Twitch (2016--2024). Fuente: Elaboración propia a partir de datos de Twitch Tracker, Business of Apps y Demand Sage \cite{DemandSage}.}
+    \label{fig:lollipop}
+\end{figure}
+
+\subsection{Análisis de Resultados y Conclusiones}
+
+Tras el análisis de los datos presentados en la Figura \ref{fig:lollipop}, se desprenden las siguientes conclusiones clave:
+
+\begin{itemize}
+    \item \textbf{Fase de Expansión (2016--2021)}: Se identifica una correlación directa entre el aumento masivo de espectadores y el crecimiento de ingresos, fenómeno potenciado significativamente por la pandemia de COVID-19 y el auge de los eventos competitivos globales de eSport.
+    \item \textbf{Fase de Maduración (2021--2024)}: Se observa un fenómeno de estabilización. A pesar de una leve disminución en la audiencia promedio post-pandemia (de 2.8M a 2.4M), los ingresos se han mantenido resilientes por encima de los \$1.8B USD. Esto confirma que la plataforma ha transitado exitosamente de un crecimiento basado en volumen a uno basado en la optimización económica de su base de usuarios existente, a través de estrategias de monetización diversificadas como suscripciones, publicidad y acuerdos de patrocinio.
+\end{itemize}
+\newpage
+\section{Conexión entre los puntos analizados}
+\subsection{¿Cómo se relacionan las partes del estudio?} 
+
+Este análisis muestra que el éxito de Twitch no ocurre por casualidad, sino por cómo se conectan los tres niveles estudiados contenido, creadores y economía. Cada uno de estos elementos influye en los otros, creando un ciclo de retroalimentación que impulsa el crecimiento y la sostenibilidad de la plataforma.
+
+\subsubsection{Relación entre juegos y streamers (Nivel Micro)} 
+Elegir el juego correcto es clave para un creador. El estudio indica que los juegos con un mejor equilibrio entre quienes transmiten y quienes ven el contenido ayudan a que los streamers tengan un crecimiento más constante. No se trata solo de transmitir, sino de encontrar dónde hay demanda real de audiencia.
+
+\subsubsection{El peso de los grandes creadores (Nivel Meso)} 
+Los streamers con más seguidores y crecimiento activo son los que generan la mayor parte del movimiento en la plataforma. Aunque son un grupo específico, su capacidad para atraer público concentra gran parte del valor total de Twitch.
+
+\subsubsection{El resultado económico final (Nivel Macro)} 
+El crecimiento del dinero que gana Twitch depende directamente de que existan tanto juegos variados como creadores que impacten a la audiencia. Si estos dos elementos funcionan, la plataforma logra resultados económicos sólidos.
+
+\subsection{La clave del éxito: Una visión integrada} 
+
+Podemos entender el éxito de Twitch como el resultado de tres factores que deben trabajar en conjunto. Primero, es fundamental la \textbf{eficiencia del contenido}, que ocurre cuando se eligen categorías de juegos con un ratio ideal entre oferta y demanda. A esto se suma el \textbf{crecimiento de los creadores}, que depende de saber equilibrar la base de seguidores que ya tienen con la llegada de gente nueva. Finalmente, todo esto permite una \textbf{optimización económica}, que es la capacidad de transformar ese interés de la gente en ingresos reales de forma eficiente. En definitiva, la plataforma funciona mejor cuando logra que estas tres piezas encajen al mismo tiempo. Por eso, el análisis multidimensional es tan importante: nos permite ver cómo cada parte influye en las otras y entender que el éxito de Twitch no es solo cuestión de tener buenos juegos o grandes streamers, sino de cómo todos estos elementos se conectan para crear un ecosistema sólido y rentable.
+\section{Conclusiones y Perspectivas Futuras} 
+
+\subsection{Contribuciones del Estudio} 
+
+Este análisis multidimensional proporciona una comprensión integral del ecosistema Twitch que supera la suma de sus partes individuales: 
+
+\begin{enumerate}
+    \item \textbf{Framework Holístico}: Primera aproximación sistemática que integra contenido, creadores y economía 
+    \item \textbf{Metodología Replicable}: Técnicas de visualización complementarias aplicables a otras plataformas
+    \item \textbf{Insights Estratégicos}: Identificación de factores críticos de éxito en streaming 
+\end{enumerate}
+
+\subsection{Implicaciones Prácticas} 
+
+\begin{itemize}
+    \item \textbf{Para Creators}: Estrategias de selección de contenido basadas en eficiencia stream/watch 
+    \item \textbf{Para Plataformas}: Optimización de algoritmos de recomendación considerando dinámicas identificadas 
+    \item \textbf{Para la Industria Gaming}: Comprensión de factores que impulsan engagement en transmisiones 
+\end{itemize}
+
+\subsection{Líneas de Investigación Futura} 
+
+\begin{enumerate}
+    \item Análisis predictivo de tendencias emergentes de contenido 
+    \item Estudio comparativo con plataformas competidoras (YouTube Gaming, Facebook Gaming) 
+    \item Impacto de eventos externos en las dinámicas observadas
+\end{enumerate}
+
+\newpage
+
+\section*{Referencias} 
+
+\begin{itemize}
+    \item SullyGnome. (2024). \textit{Twitch Statistics and Analytics}. Recuperado de sullygnome.com
+    \item TwitchTracker. (2024). \textit{Twitch Channel Statistics}. Recuperado de twitchtracker.com 
+    \item Streamhype. (2024). \textit{Twitch Streamer Analytics}. Recuperado de streamhype.com
+\end{itemize}
+
+\end{document}
