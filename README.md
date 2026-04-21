@@ -16,6 +16,10 @@ Los datos recopilados permiten analizar la evolución de Twitch bajo dos criteri
 1.  **Desempeño Financiero (2016-2024):** Estimaciones de ingresos anuales en miles de millones de dólares.
 2.  **Alcance de Audiencia (2012-2024):** Promedio de espectadores concurrentes a nivel global.
 
+### Carpetas: Most Streamed y Most Watched
+1. **Archivos CSV Most Streamed:** Carpeta que contiene las categorias mas transmitidas entre los años 2016 y 2025 en formato CSV por año
+2. **Archivos CSV Most Watched:** Carpeta que contiene las categorias mas vistas entre los años 2016 y 2025 en formato CSV por año
+
 ## Origen de las Fuentes
 
 | Fuente | Descripción | URL |
