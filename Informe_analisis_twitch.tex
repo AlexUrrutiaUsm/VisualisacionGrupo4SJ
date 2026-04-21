@@ -187,6 +187,24 @@ El crecimiento del dinero que gana Twitch depende directamente de que existan ta
 Podemos entender el éxito de Twitch como el resultado de tres factores que deben trabajar en conjunto. Primero, es fundamental la \textbf{eficiencia del contenido}, que ocurre cuando se eligen categorías de juegos con un ratio ideal entre oferta y demanda. A esto se suma el \textbf{crecimiento de los creadores}, que depende de saber equilibrar la base de seguidores que ya tienen con la llegada de gente nueva. Finalmente, todo esto permite una \textbf{optimización económica}, que es la capacidad de transformar ese interés de la gente en ingresos reales de forma eficiente. En definitiva, la plataforma funciona mejor cuando logra que estas tres piezas encajen al mismo tiempo. Por eso, el análisis multidimensional es tan importante: nos permite ver cómo cada parte influye en las otras y entender que el éxito de Twitch no es solo cuestión de tener buenos juegos o grandes streamers, sino de cómo todos estos elementos se conectan para crear un ecosistema sólido y rentable.
 
 \newpage
+\section{Gráfico generado por IA Generativa}
+
+Para explorar el potencial del uso de inteligencia artificial generativa en el análisis de datos, se le entregó a \textbf{Claude} (Anthropic) acceso completo al repositorio, solicitándole que generara una visualización original. El prompt entregado fue el siguiente:
+
+\begin{quote}
+\textit{``Por favor, analisa el repositorio de forma completa, para luego, crees un archivo .py en la carpeta "Claude" con la toda la informacion de la carpeta "data" quiero que dicha visualisacion sea con respecto a un criterio que encuentres relevante analizar, ademas has que dicha visualisacion sea con un grafico poco conocido y diferente a los graficos ya utilizados por favor.''}
+\end{quote}
+
+Como resultado, el modelo generó un \textbf{Stream Graph} (gráfico de flujo apilado), una visualización poco convencional que permite observar la evolución temporal de múltiples categorías de forma fluida y orgánica. El criterio elegido por la IA fue el análisis de las \textbf{horas vistas por los juegos más populares en Twitch} a lo largo del período 2016--2025, destacando tendencias de crecimiento, dominancia y declive de cada título. Luego de un ajuste menor en la leyenda, que se salía levemente de su zona delimitada, el gráfico final obtenido fue el siguiente:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{"./Claude/streamgraph_twitch.png"}
+    \caption{Stream Graph generado por Claude: Evolución de horas vistas por juego en Twitch (2016--2025).}
+    \label{fig:streamgraph}
+\end{figure}
+
+\newpage
 \section{Conclusiones y Perspectivas Futuras} 
 
 \subsection{Contribuciones del Estudio} 
