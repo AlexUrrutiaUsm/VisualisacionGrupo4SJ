@@ -20,6 +20,9 @@ Los datos recopilados permiten analizar la evolución de Twitch bajo dos criteri
 1. **Archivos CSV Most Streamed:** Carpeta que contiene las categorias mas transmitidas entre los años 2016 y 2025 en formato CSV por año
 2. **Archivos CSV Most Watched:** Carpeta que contiene las categorias mas vistas entre los años 2016 y 2025 en formato CSV por año
 
+### Carpetas: Most Streamed y Most Watched
+1. **Most followed streamers on Twitch, past 365 days - SullyGnome:** Tabla de datos con información de los 100 canales con más seguidores, contiene los nombres, cantidad de seguidores, cambios en seguidores, tiempo de visualizacion, etc.
+
 ## Origen de las Fuentes
 
 | Fuente | Descripción | URL |
