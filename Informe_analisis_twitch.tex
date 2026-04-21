@@ -76,6 +76,7 @@ Para garantizar la coherencia analítica, cada dimensión del estudio utiliza:
 \end{enumerate}
 \newpage
 \section{Análisis de la Evolución del Contenido Gaming} 
+\textit{Sección realizada por: Alex Urrutia}
 
 \subsection{Marco Conceptual: Dinámica Stream vs Watch} 
 
@@ -108,11 +109,11 @@ El análisis utiliza un slope chart comparativo que visualiza simultáneamente:
 \end{itemize}
 
 \section{Análisis del Ecosistema de Creadores de Contenido}
+\textit{Sección realizada por: Ariel Pulgar}
 
 \subsection{Marco Conceptual: Jerarquías de Influencia} 
 
-El segundo eje examina la distribución y características de los streamers más exitosos, enfocándose en dos métricas fundamentales: base de seguidores establecida y capacidad de crecimiento activo. Este análisis revela las dinámicas de poder e influencia dentro del ecosistema Twitch.
-
+El segundo eje examina la distribución y características de los streamers más exitosos, enfocándose en dos métricas fundamentales: base de seguidores establecida y capacidad de crecimiento activo. Este análisis revela las dinámicas de poder e influencia dentro del ecosistema Twitch, donde se utilizó un gráfico de nube de palabras, ya que es un gráfico llamativo el cual se puede modificar la ubicación de las palabras de forma estratégica, por ejemplo, los datos que utilice son de una plataforma de stream llamada “Twitch”, las palabras se podrían ordenar de distintas orientaciones y ubicaciones para formar el logo de la plataforma (no se realizó este proceso, pero creo que sería una idea muy llamativa).
 \subsection{Metodología: Word Cloud Ponderado} 
 
 La visualización utiliza una nube de palabras donde: 
@@ -192,7 +193,7 @@ Podemos entender el éxito de Twitch como el resultado de tres factores que debe
 Para explorar el potencial del uso de inteligencia artificial generativa en el análisis de datos, se le entregó a \textbf{Claude} (Anthropic) acceso completo al repositorio, solicitándole que generara una visualización original. El prompt entregado fue el siguiente:
 
 \begin{quote}
-\textit{``Por favor, analisa el repositorio de forma completa, para luego, crees un archivo .py en la carpeta "Claude" con la toda la informacion de la carpeta "data" quiero que dicha visualisacion sea con respecto a un criterio que encuentres relevante analizar, ademas has que dicha visualisacion sea con un grafico poco conocido y diferente a los graficos ya utilizados por favor.''}
+\textit{``Por favor, analisa el repositorio de forma completa, para luego, crees un archivo .py en la carpeta Claude con la toda la informacion de la carpeta data quiero que dicha visualisacion sea con respecto a un criterio que encuentres relevante analizar, ademas has que dicha visualisacion sea con un grafico poco conocido y diferente a los graficos ya utilizados por favor.''}
 \end{quote}
 
 Como resultado, el modelo generó un \textbf{Stream Graph} (gráfico de flujo apilado), una visualización poco convencional que permite observar la evolución temporal de múltiples categorías de forma fluida y orgánica. El criterio elegido por la IA fue el análisis de las \textbf{horas vistas por los juegos más populares en Twitch} a lo largo del período 2016--2025, destacando tendencias de crecimiento, dominancia y declive de cada título. Luego de un ajuste menor en la leyenda, que se salía levemente de su zona delimitada, el gráfico final obtenido fue el siguiente:
@@ -205,42 +206,36 @@ Como resultado, el modelo generó un \textbf{Stream Graph} (gráfico de flujo ap
 \end{figure}
 
 \newpage
-\section{Conclusiones y Perspectivas Futuras} 
+\section{Conclusiones y Perspectivas Futuras}
 
-\subsection{Contribuciones del Estudio} 
+\subsection{Síntesis de Hallazgos}
 
-Este análisis multidimensional proporciona una comprensión integral del ecosistema Twitch que supera la suma de sus partes individuales: 
-
-\begin{enumerate}
-    \item \textbf{Framework Holístico}: Primera aproximación sistemática que integra contenido, creadores y economía 
-    \item \textbf{Metodología Replicable}: Técnicas de visualización complementarias aplicables a otras plataformas
-    \item \textbf{Insights Estratégicos}: Identificación de factores críticos de éxito en streaming 
-\end{enumerate}
-
-\subsection{Implicaciones Prácticas} 
+En síntesis, el análisis multidimensional del ecosistema Twitch entre 2016 y 2025 demuestra que el éxito de la plataforma depende de la interacción constante de tres dimensiones inseparables:
 
 \begin{itemize}
-    \item \textbf{Para Creators}: Estrategias de selección de contenido basadas en eficiencia stream/watch 
-    \item \textbf{Para Plataformas}: Optimización de algoritmos de recomendación considerando dinámicas identificadas 
-    \item \textbf{Para la Industria Gaming}: Comprensión de factores que impulsan engagement en transmisiones 
+    \item \textbf{Contenido}: Se identificó un catálogo donde títulos como \textit{Just Chatting} y \textit{League of Legends} logran equilibrar la oferta y la demanda. En contraste, otros juegos presentan saturación o una demanda insatisfecha que representa oportunidades de crecimiento.
+    \item \textbf{Creadores}: Existe una capa altamente concentrada donde un grupo reducido de streamers, caracterizados por una gran base de seguidores y un crecimiento activo, concentra la mayor parte del valor y la audiencia de la plataforma.
+    \item \textbf{Economía}: La dimensión financiera transitó de una fase de expansión acelerada por la pandemia y los eSports hacia una etapa de maduración. En esta fase, la monetización eficiente sostiene ingresos superiores a los \$1.8B USD, incluso ante una audiencia que se ha estabilizado levemente tras el pico de 2021.
 \end{itemize}
 
-\subsection{Líneas de Investigación Futura} 
+Este estudio se complementó con un experimento de IA generativa, el cual demostró que herramientas como Claude pueden identificar criterios de análisis relevantes de forma autónoma. La creación de visualizaciones no convencionales, como el \textit{Stream Graph}, enriqueció la comprensión del ecosistema desde ángulos que el análisis humano no siempre prioriza.
 
-\begin{enumerate}
-    \item Análisis predictivo de tendencias emergentes de contenido 
-    \item Estudio comparativo con plataformas competidoras (YouTube Gaming, Facebook Gaming) 
-    \item Impacto de eventos externos en las dinámicas observadas
-\end{enumerate}
+\subsection{Visión y Perspectivas Finales}
+
+Este trabajo ofrece un modelo para entender cómo el contenido y los creadores impulsan la economía digital. Como pasos siguientes, se propone explorar el análisis predictivo de nuevas tendencias de contenido y realizar estudios comparativos con otras plataformas de streaming para entender mejor la competencia global en la industria.
 
 \newpage
 
 \section*{Referencias} 
 
 \begin{itemize}
-    \item SullyGnome. (2024). \textit{Twitch Statistics and Analytics}. Recuperado de sullygnome.com
-    \item TwitchTracker. (2024). \textit{Twitch Channel Statistics}. Recuperado de twitchtracker.com 
-    \item Streamhype. (2024). \textit{Twitch Streamer Analytics}. Recuperado de streamhype.com
+    \item \textbf{SullyGnome}. \textit{Twitch Statistics and Analytics}. Recuperado de \url{https://sullygnome.com}\\
+    \item \textbf{TwitchTracker}. \textit{Twitch Channel Statistics and Charts}. Recuperado de \url{https://twitchtracker.com}\\
+    \item \textbf{Business of Apps}. \textit{Twitch Revenue and Usage Statistics}. Recuperado de \url{https://www.businessofapps.com/data/twitch-statistics/}\\
+    \item \textbf{Demand Sage}. \textit{Twitch User Count and Demographics}. Recuperado de \url{https://www.demandsage.com/twitch-users/}
 \end{itemize}
+
+\vspace{0.5cm}
+\small \textbf{Nota:} Debido a que Amazon no desglosa oficialmente los ingresos de Twitch, los datos financieros representan estimaciones consolidadas de la industria validadas por las fuentes citadas.
 
 \end{document}
