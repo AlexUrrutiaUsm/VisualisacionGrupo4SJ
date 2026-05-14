@@ -5,17 +5,22 @@ Integrantes:
 - Ariel Pulgar 202073023-7
 - Alex Urrutia 202073565-4
 
+# PARA LA TAREA 2:
 
+## Fuente de datos
+A partir de la encuesta de forms realizada (en el siguiente link:https://forms.gle/HWhZChMXBaS4t3oXA) que ya se encuentra finalizada ya que no recibe más respuestas, contamos con un total de 29 respuestas
 
+La encuesta contaba con 5 preguntas:
+Quisimos agregar una pregunta sobre la edad ya que nos interesaba relacionar la edad con el consumo del streaming.
+Las demas preguntas son:
+¿Cuál de las siguientes plataformas de streaming utilizas con más frecuencia?
+En promedio, ¿cuántas horas dedicas a consumir contenido en plataformas de streaming a la semana?
+Al momento de elegir qué ver en plataformas, ¿cuál de los siguientes factores influye más en tu decisión final?
+(puedes escoger max 3)
+Al momento de elegir qué ver en plataformas, ¿cuál de los siguientes factores influye más en tu decisión final?
+(puedes escoger max 3)
 
-
-
-
-
-
-
-
-
+El csv generado a partir de lo anterior se encuentra dentro de la carpeta data de la Tarea 2.
 
 
 
