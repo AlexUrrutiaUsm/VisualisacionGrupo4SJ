@@ -1,11 +1,36 @@
-Tarea 1 Visualizacion
+Tarea 2 Visualizacion
 
 Integrantes:
 - Dante Aspee 202073524-7
 - Ariel Pulgar 202073023-7
 - Alex Urrutia 202073565-4
 
-# Fuentes de Datos(data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Fuentes de Datos TAREA 1(data)
 
 Este directorio contiene la descripción y el origen de los datos utilizados para la generación de las visualizaciones.
 
